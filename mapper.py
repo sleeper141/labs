@@ -1,7 +1,5 @@
-kar=set()
+import sys
 for line in sys.stdin:
-		a=line.split(", ")[2]
-		kar.add(a)
-for a in kar:
+	a=line.split(", ")[2]
 	print(a)
 
