@@ -1,5 +1,5 @@
 kar=set()
-for line in sys.stdin.readlines():
+for line in sys.stdin:
 		a=line.split(", ")[2]
 		kar.add(a)
 for a in kar:
